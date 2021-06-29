@@ -29,7 +29,7 @@ void json_tree(string file_path)
 		cout << "Failed to open file";
 	else
 	{
-		fout.open("result.txt");
+		fout.open("result.json");
 		while (fin.get(ch))
 		{
 
