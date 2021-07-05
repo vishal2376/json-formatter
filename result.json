@@ -1,0 +1,12 @@
+{
+	"name" : "json-formatter",
+	"full_name" : "vishal2376/json-formatter",
+	"files" : 
+	{
+		"main.cpp" : "cppfiletoformatjson",
+		".gitignore" : "Ignorethefiles",
+		"sample.json" : "sampleinputfile",
+		"result.json" : "outputfile"
+	}
+	
+}
