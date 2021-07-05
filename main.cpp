@@ -100,6 +100,7 @@ void json_tree(string file_path)
 		}
 		fout.close();
 	}
-	fin.close();
 	cout << "Formatting Done \nCheck 'result.json' file\n";
+	fin.close();
+
 }
