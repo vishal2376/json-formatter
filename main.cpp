@@ -91,7 +91,12 @@ void json_tree(string file_path)
 				}
 			}
 			else
-				fout << ch;
+			{
+				if (ch == ' ' || ch == '\n' || ch == '\t')
+					continue;
+				else
+					fout << ch;
+			}
 		}
 		fout.close();
 	}
