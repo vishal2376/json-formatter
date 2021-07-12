@@ -92,7 +92,7 @@ void json_tree(string file_path)
 			}
 			else
 			{
-				if (ch == ' ' || ch == '\n' || ch == '\t')
+				if (ch == '\n' || ch == '\t')
 					continue;
 				else
 					fout << ch;
